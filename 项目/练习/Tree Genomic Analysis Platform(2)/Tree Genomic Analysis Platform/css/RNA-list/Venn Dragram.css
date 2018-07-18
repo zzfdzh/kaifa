@@ -1,0 +1,133 @@
+.border{              /* 外层大边框*/
+    width: 1000px;
+    background: #eeeeee;
+    border-left: solid 1px  #dddddd;
+    border-right: solid 1px  #dddddd;
+    border-bottom: solid 1px  #dddddd;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+}
+#border1{               /*里层边框*/
+    width: 900px;
+    height:8500px;      /*高度根据页面设置*/
+    border: 1px solid #dddddd;
+    margin: 34px auto 0 auto;
+}
+hr{                    /*有的页面有分界线*/
+    height:1px;
+    border:none;
+    border-top:1px solid  #dddddd;;
+    width: 900px;
+    margin: 33px auto;
+}
+
+.form1{
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+.form2{
+    width: 400px;
+    float: left;
+    margin-top: 45px;
+}
+.form3{
+    clear: both;
+}
+.form1 div{
+    margin: 60px 20px;
+}
+.form1 span{
+    float: left;
+    display: block;
+    margin-top: 12px;
+}
+.form2 div{
+    margin: 59px 20px;
+    color:#0086b4;
+    font-size: 26px;
+}
+.form3 div {
+    margin: 30px 0 0 200px;
+}
+
+.form2 input{
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    border: solid 1px rgb(211,211,211);
+    border-radius:5px;
+}
+
+.form1 input,.form3 input{
+    color: white;
+    font-weight: bold;
+    width: 75px;
+    height: 30px;
+    font-size: 14px;
+    margin-top: 22px;
+}
+.input-num{
+    width: 300px!important;
+    height: 40px!important;
+    background: white!important;
+    color: white;
+    font-size: 18px;
+    margin-left:120px;
+    border-radius:5px;
+    border:1px solid rgb(255,255,255);
+}
+.form1_1{
+    color: #fbcb09!important;
+}
+.form1_1,.form1_2,.form1 span{
+    color: #6D84B4;
+    font-size: 26px;
+}
+.form1_3{
+    width: 500px;
+    height: 100px;
+}
+.form1 textarea{
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    cursor: text;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 18px;
+    float: left;
+    margin-left: 20px;
+}
+.form1_3 input{
+    margin-top:0px!important;
+    width: 100px;
+    height: 60px;
+   color: #00B262;
+    background: #DFDFDF;
+    border:none;
+}
+.form3>input{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 280px;
+    clear: both;
+    border:none;
+    color: #00B262;
+
+}
+.form3_1 input{
+    width: 80px;
+    height: 40px;
+    margin: 50px 0 0 70px;
+    background: #BABEBF;
+    border: none;
+    border-radius: 5px;
+    color: #00B262;
+}
+.form1_1{
+    margin-top: 30px;
+}

@@ -1,0 +1,34 @@
+
+.nav-content{
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    margin: 30px 50px;
+}
+
+/*6页开始*/
+
+.img2{
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    margin: 29px;
+}
+.nav-content p{
+    font-size: 24px;
+    margin: 0 29px 29px 29px;
+}
+/*6页结束*/
+/*5页开始*/
+.nav-ul{
+    margin: 25px;
+    font-size: 24px;
+}
+.nav-ul ul{
+    display: inline-block;
+
+}
+.nav-ul .ul2{
+margin-left: 70px;
+}
+
+
+/*5页结束*/

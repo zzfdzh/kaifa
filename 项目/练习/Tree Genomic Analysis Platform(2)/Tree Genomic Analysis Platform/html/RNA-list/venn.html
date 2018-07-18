@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../css/common.css">          <!--把common.css引入-->
+    <link rel="stylesheet" href="../../css/RNA-list/Venn%20Dragram.css"><!--页面对应的css-->
+    <link rel="stylesheet" href="../../css/tanceng.css">             <!--把tanceng.css引入-->
+</head>
+<body>
+<div id="header">
+    <div class="wrapper">
+        <div id="header-top">
+            <div id="logo-box">
+                <a href="">
+                    <img class="logo-img" src="../../images/logo.png" alt="">
+                    <span class="logo-title">Tree Genomic Analysis Platform</span>
+                </a>
+            </div>
+            <div id="header-login">
+                <a class="login" href="#">Login</a>
+                <span class="line"></span>
+                <a class="register" href="#">Register</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="nav">
+    <div class="wrapper">
+        <ul class="nav-ul" >
+            <li>
+                <span class="nav-tit"><a href="../index.html">Home</a></span>
+            </li>
+            <li class=" nav-tit-rna">
+                <span class="nav-tit"><a href="../RNA-seq.html">RNA-seq</a></span>
+                <div class="nav-sub nav-sub1">
+                    <ul class="nav-subul">
+                        <li><a href="FastQc.html">FastQC</a></li>
+                        <li><a href="Mapping.html">Mapping</a></li>
+                        <li><a href="venn.html">Venn diagram</a></li>
+                        <li><a href="GO.html">Go enrichment</a></li>
+                        <li><a href="Motif.html">Motif enrichment</a></li>
+                        <li><a href="express.html">Expression cluster</a></li>
+                        <li><a href="identy.html">Identification of DEGS</a></li>
+                        <li><a href="co.html">Co-express analysis</a></li>
+                        <li><a href="HeatMap.html">Heat map</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li  class="nav-tit-tools">
+                <span class="nav-tit"><a href="../tools.html">Tools</a></span>
+                <div class="nav-sub nav-sub2">
+                    <ul class="nav-subul">
+                        <li><a href="../tools-list/Blast.html">Blast</a></li>
+                        <li><a href="../tools-list/Muscle.html">Muscle</a></li>
+                        <li><a href="../tools-list/Reverse.html">Reverse</a></li>
+                        <li><a href="../tools-list/CAP3.html">Cap3</a></li>
+                        <li><a href="../tools-list/Sequence.html">Sequence retrieve</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-tit-download">
+                <span class="nav-tit"><a href="../download.html">Download</a></span>
+
+            </li>
+            <li class=" nav-tit-extra">
+                <span class="nav-tit"><a href="../extra.html">Extra-link</a></span>
+
+            </li>
+            <li class="nav-tit-about">
+                <span class="nav-tit"><a href="../about.html">About our Team</a></span>
+
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="banner" class="wrapper">
+    <img src="../../images/banner.png" alt="">
+</div>
+<div id="container">
+    <div class="wrapper">
+        <div class="border">
+           <hr>           <!-- 有的页面有分界线-->
+            <div id="border1">
+                <form action="http://219.217.203.41:8000/VennResults" method="POST" name="MainVennForm" enctype="multipart/form-data">
+                    <div class="form1_1">
+                        Input your sample number here:
+                        <input class="input-num" name="num" type="text">
+                    </div>
+                    <div class="form1">
+
+                        <div class="form1_2">upload lists:</div>
+                        <div class="form1_3">
+                            <span>list 1:</span>
+                            <textarea name="list1" id="list1" rows="3" cols="25"></textarea>
+                            <input  name="del" class="button" value="Empty" type="button">
+                        </div>
+                        <div class="form1_3">
+                            <span>list 2:</span>
+                            <textarea name="list1" id="list2" rows="3" cols="25"></textarea>
+                            <input style="margin-left:5px;" name="del" class="button" value="Empty" type="button">
+                        </div>
+                        <div class="form1_3">
+                            <span>list 3:</span>
+                            <textarea name="list1" id="list3" rows="3" cols="25"></textarea>
+                            <input style="margin-left:5px;" name="del" class="button" value="Empty" type="button">
+                        </div>
+                    </div>
+                    <div class="form2">
+                        <div>
+                            Provide name for list (optional):
+                            <input id="namelist1" name="namelist1" value="user_list1" type="text">
+                        </div>
+                        <div>
+                            Provide name for list (optional):
+                            <input id="namelist2" name="namelist2" value="user_list2" type="text">
+                        </div>
+                        <div>
+                            Provide name for list (optional):
+                            <input id="namelist3" name="namelist2" value="user_list2" type="text">
+                        </div>
+                    </div>
+                    <div class="form3">
+                        <input name="add" class="button" id="add" value="Add Another List" onclick="addList();" type="button">
+                        <div class="form3_1">
+                            <input value="Submit" type="submit">
+                            <input value="Reset" type="reset">
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="wrapper">
+        <span>Copyright 2012/2013 MTU School of Forest | Designed by Yufeng Guo, Xiang Li and Chathura Gunasekara</span>
+    </div>
+</div>
+<script src="../../js/require.js" data-main="../../js/login"></script>
+</body>
+</html>

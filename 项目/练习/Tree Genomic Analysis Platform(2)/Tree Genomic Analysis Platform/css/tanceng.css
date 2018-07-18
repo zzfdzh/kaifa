@@ -1,0 +1,99 @@
+.dialog-mask{
+    position: fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    right: 0;
+    background: rgba(0,0,0,0.4);
+
+}
+.dialog-box{
+    width: 1000px;
+    height: 550px;
+    background: #ffffff;
+    position: absolute;
+    left:50%;
+    top:50%;
+    font-size:30px;
+    border-radius:10px;
+    /*margin-top:-150px;
+    margin-left:-200px;*/
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%) ;
+    font-family:Arial;
+}
+.dialog-title{
+    margin:170px 0 0 550px;
+}
+.dialog-close{
+    position:absolute;
+    top:-10px;
+    right:5px;
+
+}
+.dialog-password,.dialog-username{
+    margin:40px 0 0 270px;
+    height: 40px;
+    line-height:40px;
+}
+.dialog-password{
+    font-weight: bold;
+}
+.dialog-username input,.dialog-password input{
+    width: 300px;
+    height: 40px;
+    margin-left:40px;
+    border:1px solid rgb(221,221,221);
+}
+.dialog-submit input{
+    margin:65px 0 0 500px;
+    width: 200px;
+    height: 40px;
+    line-height:40px;
+    background:#fff;
+    font-size:30px;
+     border:1px solid rgb(221,221,221);
+    border-radius:10px;
+}
+.dialog-title1{
+    margin:70px 0 0 450px;
+}
+
+.dialog-username1{
+    margin:50px 0 0 270px;
+    height: 40px;
+    line-height:40px;
+}
+.dialog-password1,.dialog-email1{
+    margin:30px 0 0 270px;
+    height: 40px;
+    line-height:40px;
+}
+.dialog-box span{
+    height: 40px;
+    line-height:40px;
+    display:inline-block;
+    width: 145px;
+    font-weight: normal;
+}
+.dialog-username1 input,.dialog-password1 input,.dialog-email1 input{
+    width: 300px;
+    height: 40px;
+    margin-left:25px;
+    border:1px solid rgb(221,221,221);
+}
+.dialog-content{
+    font-size:18px;
+    color:#ff0101;
+    margin:40px 0 0 210px;
+}
+.dialog-submit1 input{
+    margin:35px 0 0 400px;
+    width: 200px;
+    height: 40px;
+    line-height:40px;
+    background:#fff;
+    font-size:30px;
+    border-radius:10px;
+    border:1px solid rgb(221,221,221);
+}

@@ -1,0 +1,102 @@
+/*通用*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*通用  end*/
+/*header*/
+#header{
+    height: 110px;
+}
+#header-top{
+    margin-top: 28px;
+    height: 56px;
+    line-height: 56px;
+}
+#logo-box{
+    width: 517px;
+    height: 56px;
+    float: left;
+}
+#logo-box a{
+    width: 580px;
+    height: 56px;
+    display: block;
+}
+.logo-img{
+    width: 62px;
+    height: 56px;
+    float: left;
+}
+.logo-title{
+    width: 475px;
+    font-size: 30px;
+    margin-left: 24px;
+    float: left;
+}
+#header-login{
+    width: 243px;
+    height: 56px;
+    float: right;
+    line-height: 56px;
+    font-size: 30px;
+    color: #009551;
+    position: relative;
+}
+.line{
+    width: 2px;
+    height: 28px;
+    background: #009551 ;
+    position: absolute;
+    top: 17px;
+    left: 93px;
+}
+.register{
+    margin-left: 36px;
+}
+/*header end*/
+#header-nav{
+    height: 60px;
+    font-size: 26px;
+}
+#header-nav ul li{
+    float: left;
+    padding:19px 19px 15px 19px;
+    overflow: hidden;
+    border-radius: 8px  8px 0 0;
+}
+ .selected{
+    background: #009551;
+}
+/*header-nav*/
+
+#container p{
+    font-size: 24px;
+    width: 840px;
+
+}
+/*foot*/
+#foot div{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.nav{
+    border: 1px solid #dddddd;
+    clear: both;
+    border-radius: 0 0 8px 8px;
+}
+.nav .img1{
+    width: 998px;
+}

@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+/*head开始*/
+.header{
+    width: 1280px;
+    height: 120px;
+}
+.wrapper{
+    width: 1002px;
+    font-family: Myriad Pro;
+    margin: 0 auto;
+    //background: #00ff00;
+}
+.head{
+    height: 120px;
+}
+.head-logo{
+    margin:35px 0;
+    float: left;
+}
+.head-nav{
+float: left;
+    margin-left: 120px;
+    line-height: 120px;
+
+}
+.head-nav li{
+    float: left;
+    margin-left:25px;
+
+}
+.head-nav-li{
+    width: 1px;
+}
+.head-nav li a{
+    color:#626262;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:Myriad Pro;
+
+}
+.search{
+   margin-top: 45px;
+
+    float: right;
+
+}
+.search input{
+    border: 0;float: left;
+    background: #f1f3f6;
+}
+#search-text{
+    width: 100px;
+    height: 30px;
+    color: #a3a3a3;
+    line-height: 30px;
+}
+#search-img{
+
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/search.png");
+}
+
+/*head结束*/
+
+/*content*/
+.content-lbt{
+    position: relative;
+    width: 1002px;
+    height: 460px;
+}
+.content-lbt img{
+
+    float: left;
+}
+#lbt-left{
+    position: absolute;
+    left: 0;
+    background: url("../img/rl.png") -20px 0 no-repeat;
+    top:202px;
+    width: 30px;
+    height: 55px;
+}
+#lbt-right{
+    position: absolute;
+    right: 0;
+    top:202px;
+    background:  url("../img/rl.png")  -60px 0 no-repeat;
+    width: 30px;
+    height: 55px;
+}
+#lbt-text{
+    position: absolute;
+    top: 40px;
+    left: 700px;
+    width: 181px;
+    height: 50px;
+    background:#00aeff ;
+    border-radius: 3px;
+    text-align: center;
+}
+#lbt-text span{
+
+    line-height: 50px;
+    color: #ffffff;
+}
+
+/*content结束*/
+/*new*/
+.content-news{
+    height: 492px;
+    background: #fff;
+
+}
+
+.content-news .new1{
+    float: left;
+    width: 333px;
+    height: 492px;
+    text-align: center;
+}
+.content-news .new-p1{
+margin-top: 85px;
+    font-size: 30px;
+}
+.content-news .new-img1{
+    margin-top: 20px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url("../img/new.png") 0 0 no-repeat;
+}
+.content-news .new-p2{
+    margin-top: 10px;
+   color: #2a2e39;
+    font-size: 15px;
+    text-align: center;
+}
+.content-news .new-p3{
+    margin-top: 30px;
+    font-size: 15px;
+   color: #00aeff;
+}
+.content-news .new2{
+    float: left;
+    width: 333px;
+    height: 492px;
+    text-align: center;
+}
+.content-news .new3{
+    float: left;
+    width: 333px;
+    height: 492px;
+    text-align: center;
+}
+.content-news .new-img2{
+    margin-top: 20px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url("../img/new.png") -100px 0 no-repeat;
+}
+.content-news .new-img3{
+    margin-top: 20px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url("../img/new.png") -200px 0 no-repeat;
+}
+/*news结束*/
+/*work开始*/
+.our-work{
+    background: #e2e7ed;
+    height: 470px;
+    width: 1002px;
+    padding-bottom: 30px;
+}
+.work-p{
+    height: 70px;
+    line-height: 70px;
+}
+.work-p p{
+    height: 70px;
+color: #626262;
+    font-size: 30px;
+}
+.work-img{
+    width: 1002px;
+    height: 400px;
+}
+.work-li1{
+    float: left;
+    width: 250px;
+    height: 200px;
+    background:url("../img/work.png") 0 0 no-repeat ;
+}
+.work-li2{
+    float: left;
+    width: 250px;
+    height: 200px;
+    background:url("../img/work.png") -250px 0 no-repeat ;
+}
+.work-li3{
+    float: left;
+    width: 250px;
+    height: 200px;
+    background:url("../img/work.png") -500px 0 no-repeat ;
+}
+.work-li4{
+    float: left;
+    width: 250px;
+    height: 200px;
+    background:url("../img/work.png") -750px 0 no-repeat ;
+}
+.work-li5{
+    float: left;
+    width: 250px;
+    height: 200px;
+    background:url("../img/work.png") 0 -200px no-repeat ;
+}
+.work-li6{
+    float: left;
+    width: 250px;
+    height: 200px;
+    background:url("../img/work.png") -250px -200px  no-repeat ;
+}
+.work-li7{
+    float: left;
+    width: 250px;
+    height: 200px;
+    background:url("../img/work.png") -500px -200px  no-repeat ;
+}
+.work-li8{
+    float: left;
+    width: 250px;
+    height: 200px;
+    background:url("../img/work.png") -750px -200px  no-repeat ;
+}
+/*work结束*/
+/*clients开始*/
+.clients{
+    height: 154px;
+    background:url("../img/morelogo.png") 0 0  no-repeat ;
+}
+
+/*clients结束*/
+/*foot*/
+.foot{
+    height: 176px;
+    background: #31333e;
+}
+.foot-left{
+    float: left;
+    height: 176px;
+    width: 500px;
+    color: #e2e7ed;
+}
+.foot-right{
+    float: left;
+    height: 176px;
+    width: 500px;
+}
+.foot-ul{
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.foot-ul li{
+    float: left;
+    margin-right: 15px;
+}
+.foot-ul li a{
+    color: #e2e7ed;
+    text-decoration: none;
+}
+.foot-span{
+display: block;
+}
+.foot-span a{
+    color: #e2e7ed;
+    text-decoration: none;
+    font-size: 15px;
+}
+.foot-left .foot-p{
+    margin-top: 30px;
+    font-size: 8px;
+}
+.right-imgs{
+    width: 400px;
+    height: 100px;
+    float: right;
+    margin-top: 45px;
+    background-image: url("../img/footimg.png");
+}
+
+/*foot结束*/

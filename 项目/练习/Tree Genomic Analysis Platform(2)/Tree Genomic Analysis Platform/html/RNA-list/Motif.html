@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/RNA-list/Motif.css">
+    <link rel="stylesheet" href="../../css/tanceng.css">
+</head>
+<body>
+<div id="header">
+    <div class="wrapper">
+        <div id="header-top">
+            <div id="logo-box">
+                <a href="">
+                    <img class="logo-img" src="../../images/logo.png" alt="">
+                    <span class="logo-title">Tree Genomic Analysis Platform</span>
+                </a>
+            </div>
+            <div id="header-login">
+                <a class="login" href="#">Login</a>
+                <span class="line"></span>
+                <a class="register" href="#">Register</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="nav">
+    <div class="wrapper">
+        <ul class="nav-ul" >
+            <li>
+                <span class="nav-tit"><a href="../index.html">Home</a></span>
+            </li>
+            <li class=" nav-tit-rna">
+                <span class="nav-tit"><a href="../RNA-seq.html">RNA-seq</a></span>
+                <div class="nav-sub nav-sub1">
+                    <ul class="nav-subul">
+                        <li><a href="FastQc.html">FastQC</a></li>
+                        <li><a href="Mapping.html">Mapping</a></li>
+                        <li><a href="venn.html">Venn diagram</a></li>
+                        <li><a href="GO.html">Go enrichment</a></li>
+                        <li><a href="Motif.html">Motif enrichment</a></li>
+                        <li><a href="express.html">Expression cluster</a></li>
+                        <li><a href="identy.html">Identification of DEGS</a></li>
+                        <li><a href="co.html">Co-express analysis</a></li>
+                        <li><a href="HeatMap.html">Heat map</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li  class="nav-tit-tools">
+                <span class="nav-tit"><a href="../tools.html">Tools</a></span>
+                <div class="nav-sub nav-sub2">
+                    <ul class="nav-subul">
+                        <li><a href="../tools-list/Blast.html">Blast</a></li>
+                        <li><a href="../tools-list/Muscle.html">Muscle</a></li>
+                        <li><a href="../tools-list/Reverse.html">Reverse</a></li>
+                        <li><a href="../tools-list/CAP3.html">Cap3</a></li>
+                        <li><a href="../tools-list/Sequence.html">Sequence retrieve</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-tit-download">
+                <span class="nav-tit"><a href="../download.html">Download</a></span>
+
+            </li>
+            <li class=" nav-tit-extra ">
+                <span class="nav-tit"><a href="../extra.html">Extra-link</a></span>
+
+            </li>
+            <li class="nav-tit-about">
+                <span class="nav-tit"><a href="../about.html">About our Team</a></span>
+
+            </li>
+        </ul>
+    </div>
+
+</div>
+<div id="banner" class="wrapper">
+    <img src="../../images/banner.png" alt="">
+</div>
+<div id="container">
+    <div class="wrapper">
+        <div class="border">
+            <div id="extra">
+                <div id="btn-text">
+                    <table id="btn-table">
+                        <tr>
+                            <td> Choose database:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</td>
+                            <td> <select name="database">
+                                <option value="birch_gene.promoter.fa">birch_gene.promoter.fa</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td>     </td>
+                            <td>     </td>
+                        </tr>
+                        <tr>
+                            <td>     </td>
+                            <td>     </td>
+                        </tr>
+
+                        <tr>
+                            <td>Pvalue report threshold: &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</td>
+                            <td><input   type="text" value="0.05" name="motiftext"></td>
+                        </tr>
+                        <tr>
+                            <td>    </td>
+                            <td>    </td>
+                        </tr>
+                        <tr>
+                            <td>    </td>
+                            <td>    </td>
+                        </tr>
+
+                        <tr>
+                            <td><span>Input your sequence here:</span></td>
+                            <td><textarea name="motext" id="motext" ></textarea></td>
+                        </tr>
+
+
+                    </table>
+
+                    <div id="btn">
+                        <input type="submit" value="RUN" style="width:65px;height:30px;font-size:14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="reset" value="RESET" style="width:75px;height:30px;font-size:14px">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="wrapper">
+        <span>Copyright 2012/2013 MTU School of Forest | Designed by Yufeng Guo, Xiang Li and Chathura Gunasekara</span>
+    </div>
+</div>
+<script src="../../js/require.js" data-main="../../js/login"></script>
+<script src="../../js/jquery-1.12.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.border{
+    width: 1000px;
+    height: 360px;
+    border-left: 1px solid #fbcb09;
+    border-right: 1px solid #fbcb09;
+    border-bottom: 1px solid #fbcb09;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    background:#eeeeee;
+}
+#extra{
+    width: 900px;
+    height: 300px;
+    border: 1px solid #dddddd;
+    margin: 34px auto 0 auto;
+}
+.extra-ul{
+    margin: 25px;
+    font-size: 24px;
+    color:#5F9F9F;
+}
+.extra-ul li:hover{
+    color:#008CD7;
+}
+.extra-ul ul{
+    display: inline-block;
+
+}
+.extra-ul .ul2{
+    margin-left: 70px;
+}

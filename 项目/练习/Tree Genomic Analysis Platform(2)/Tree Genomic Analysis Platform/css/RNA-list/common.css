@@ -1,0 +1,151 @@
+/*----通用----*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*font-family: PingFangSC;*/
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*----通用  end----*/
+
+/*----header----*/
+
+/*header-top  end*/
+#header{
+    height: 56px;
+}
+#header-top{
+    margin-top: 28px;
+    height: 56px;
+    line-height: 56px;
+}
+#logo-box{
+    width: 570px;
+    height: 56px;
+    float: left;
+}
+#logo-box a{
+    width: 570px;
+    height: 56px;
+    display: block;
+    color: #333333;
+}
+.logo-img{
+    width: 62px;
+    height: 56px;
+    float: left;
+}
+.logo-title{
+    width: 472px;
+    font-size: 30px;
+    margin-left: 24px;
+    float: left;
+}
+#header-login{
+    width: 243px;
+    height: 56px;
+    float: right;
+    line-height: 56px;
+    font-size: 30px;
+    position: relative;
+}
+#header-login a{
+    color: #009551;
+}
+.line{
+    width: 2px;
+    height: 28px;
+    background: #009551 ;
+    position: absolute;
+    top: 17px;
+    left: 93px;
+}
+.register{
+    margin-left: 36px;
+}
+/*header-top  end*/
+
+/*header-nav   end*/
+#nav{
+    margin-top: 26px;
+    height: 50px;
+    line-height: 50px;
+}
+.nav-tit>a{
+     color: #333333;
+    display: block;
+ }
+.nav-selected>span>a{
+    color: #eef8f3;
+}
+.nav-selected{
+    background: #009551;
+    border-radius: 10px 10px 0 0;
+}
+.nav-ul>li{
+    float: left;
+    text-align: center;
+    padding: 0 21px;
+    position: relative;
+}
+.nav-ul>li:hover{
+    background: #009551;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+.nav-ul>li:hover .nav-tit>a{
+    color: #eef8f3;
+}
+.nav-tit{
+    font-size: 26px;
+}
+.nav-sub{
+    display: none;
+    width: 310px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    background: #009551;
+    font-size: 26px;
+}
+.nav-sub li,.nav-sub a{
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    display: block;
+    text-indent: 20px;
+}
+.nav-subul a{
+    color: #eef8f3;
+}
+.nav-tit-rna:hover .nav-sub1,.nav-tit-tools:hover .nav-sub2{
+    display: block;
+}
+.nav-subul>li:hover{
+    background: #cceadc;
+}
+.nav-subul>li>a:hover{
+    color:#009551;
+}
+/*header-nav  end*/
+/*---footer  begin---*/
+
+#footer{
+    margin-top: 60px;
+    text-align: center;
+}
+
+/*---fo0ter  end---*/
+
+/*----header end----*/

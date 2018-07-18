@@ -1,0 +1,47 @@
+.border{
+    width: 1000px;
+    background: #eeeeee;
+    border-left: solid 1px  #dddddd;
+    border-right: solid 1px  #dddddd;
+    border-bottom: solid 1px  #dddddd;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+}
+#extra{
+    width: 900px;
+
+    border: 1px solid #dddddd;
+    margin: 34px auto 30px auto;
+    font-size:20px;
+    color:rgb(0,184,81)
+}
+#extra .inner-lock input{
+    display: inline-block;
+    float: left;
+}
+#btn-text{
+    margin: 10px 0 10px 10px;
+
+}
+#btn-text .text1{
+    margin: 50px 50px;
+}
+#btn-text input{
+    width: 200px;
+    height: 30px;
+}
+#btn-text label{
+    padding:10px;
+    display: block;
+    font-size: 18px;
+}
+#btn-text input{
+    border-radius: 4px;
+}
+#btn{
+    margin:20px 50px;
+}
+#btn input{
+    border-radius: 5px;
+}

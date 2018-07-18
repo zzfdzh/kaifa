@@ -1,0 +1,43 @@
+.border{
+    width: 1000px;
+    background: #eeeeee;
+    border-left: solid 1px  #dddddd;
+    border-right: solid 1px  #dddddd;
+    border-bottom: solid 1px  #dddddd;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+}
+#extra{
+
+    width: 900px;
+
+    border: 1px solid #dddddd;
+    margin: 34px auto 30px auto;
+    font-size:20px;
+    color:rgb(0,184,81)
+}
+
+#btn-text{
+
+    margin: 50px 0 50px 20px;
+}
+#btn-text textarea{
+    border: 1px solid rgb(0,184,81);
+    border-radius: 8px;
+}
+#btn-text label{
+   padding:10px;
+    display: block;
+    font-size: 25px;
+}
+#btn-text .btn-input{
+
+    border-radius: 4px ;
+}
+#btn{
+    margin:50px 50px;
+}
+#btn input{
+    border-radius: 5px;
+}

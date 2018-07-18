@@ -1,0 +1,25 @@
+.border{
+    width: 1000px;
+    height: 819px;
+    border-left:1px solid #fbcb09;
+    border-right: 1px solid #fbcb09;
+    border-bottom: 1px solid #fbcb09;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    background:#eeeeee;
+}
+#content{
+     width: 900px;
+     height: 764px;
+     border: 1px solid #dddddd;
+     margin: 34px auto 0 auto;
+ }
+.container-content{
+    width: 840px;
+    height: 700px;
+    margin:20px auto;
+    font-size:23px;
+    color:  #5E9F92;
+    line-height:40px;
+}

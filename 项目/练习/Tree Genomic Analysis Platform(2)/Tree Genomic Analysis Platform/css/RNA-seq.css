@@ -1,0 +1,90 @@
+/*---container  begin---*/
+#container{
+    height: 567px;
+}
+.border{
+    height: 600px;
+    background:#eeeeee;
+    border:1px solid #fbcb09;
+}
+/*welcome  begin*/
+.welcome{
+    font-size: 18px;
+    margin-top: 34px;
+    text-align: center;
+}
+.click-link{
+    color: #009551;
+}
+/*welcome  end*/
+hr{
+    height:1px;
+    border:none;
+    border-top:1px solid  #dddddd;;
+    width: 900px;
+    margin: 33px auto;
+}
+/*reads  bdgin*/
+#reads{
+    width: 900px;
+    height: 428px;
+    border: 1px solid #dddddd;
+    margin: 0 auto;
+}
+.reads-title{
+    float: left;
+    color: rgb(0,184,81);
+    font-size: 20px;
+    margin: 34px 0 0 28px;
+}
+.reads-detail{
+    float: left;
+    margin-top: 34px;
+}
+.reads-top>div,.reads-bottom>div{
+    float: left;
+    width: 122px;
+    height: 48px;
+    margin-left: 20px;
+}
+.reads-top input,.reads-bottom input{
+    background: none;
+    width: 122px;
+    height: 48px;
+    border: none;
+}
+.reads-bottom input{
+    width: 80px;
+    height: 40px;
+
+    background: #BABEBF;
+    border: none;
+    border-radius: 5px;
+    color: #00B262;
+}
+.reads-bottom{
+    clear: both;
+    height: 48px;
+}
+.reads-top{
+    font-size: 30px;
+    height: 48px;
+}
+.reads-bottom{
+    font-size: 24px;
+    margin-top: 32px;
+}
+.file{
+    display: block;
+    width: 400px!important;
+    height: 50px!important;
+    border: none!important;
+    font-size: 20px!important;
+    color: #898989;
+    border-radius: 5px;
+    margin-right: 240px;
+}
+/*reads  end*/
+
+/*---container  end---*/
+

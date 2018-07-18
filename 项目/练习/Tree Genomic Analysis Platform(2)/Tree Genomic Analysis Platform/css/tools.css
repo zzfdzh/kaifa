@@ -1,0 +1,107 @@
+.border{
+    width: 1000px;
+    height: 950px;
+    border-left: solid 1px  #dddddd;
+    border-right: solid 1px  #dddddd;
+    border-bottom: solid 1px  #dddddd;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    background:#eeeeee;
+}
+/*welcome  begin*/
+.welcome{
+    font-size: 18px;
+    margin-top: 34px;
+    text-align: center;
+}
+.click-link{
+    color: #009551;
+}
+/*welcome  end*/
+hr{
+    height:1px;
+    border:none;
+    border-top:1px solid  #dddddd;;
+    width: 900px;
+    margin: 33px auto;
+}
+#tools{
+    width: 900px;
+    height: 710px;
+    border: 1px solid #dddddd;
+    margin: 34px auto 0 auto;
+}
+.content-box{
+    width: 900px;
+    margin-left:50px;
+    font-size:18px;
+}
+.gene{
+    width: 900px;
+    height: 66px;
+    line-height:66px;
+    border-bottom:1px dashed rgb(221,221,221);
+    text-indent:20px;
+}
+.gene a{
+    color:rgb(0,149,81);
+}
+.submit{
+    width: 880px;
+    height: 66px;
+    color:rgb(0,149,81);
+    margin :0 auto;
+    font-size:20px;
+    line-height:33px;
+}
+.container-content1{
+    height: 710px;
+    width: 900px;
+}
+.content1-box{
+    margin-left:30px;
+}
+
+.content1-box input{
+    width: 400px;
+    height: 50px;
+    margin-top:30px;
+    border-radius:5px;
+    border:1px solid rgb(211,211,211);
+    font-size:20px;
+    color:#5F9F9F;
+}
+.sfile input{
+    font-size:20px;
+    border:none;
+    color: #898989;
+    display: block;
+}
+.choose{
+    border:1px solid rgb(221,221,221);
+    border-radius:8px;
+}
+.squene{
+    font-size:24px;
+    height: 90px;
+    line-height:90px;
+    color:rgb(0,181,84);
+}
+.text-box{
+    width: 400px;
+    height: 200px;
+    border:1px solid rgb(221,221,221);
+    border-radius:5px;
+}
+.run{
+    width: 120px;
+    height: 50px;
+    float:left;
+    margin:30px 20px 0 0;
+    border:1px solid rgb(221,221,221);
+    border-radius:8px;
+    line-height:50px;
+    text-align:center;
+    color:#008CD7;
+}

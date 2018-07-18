@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+
+
+        }
+        .stage{
+            position: relative;
+            left: 1000px;
+            top: 200px;
+            width: 400px;
+            height: 400px;
+            perspective: 2000px;
+            perspective-origin: -200% -200%;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            transform-style: preserve-3d;
+        }
+        .box div{
+            width: 400px;
+            height: 400px;
+            background-color: rgba(255,0,0,0.5);
+            position: absolute;
+            border: solid 1px gold;
+        }
+        .box div:nth-child(1){
+            transform: rotateY(0deg) translateZ(200px);
+        }
+        .box div:nth-child(2){
+            transform: rotateY(180deg) translateZ(200px);
+        }
+        .box div:nth-child(3){
+            transform: rotateY(90deg) translateZ(200px);
+        }
+        .box div:nth-child(4){
+            transform: rotateY(270deg) translateZ(200px);
+        }
+        .box div:nth-child(5){
+            transform: rotateX(90deg) translateZ(200px);
+        }
+        .box div:nth-child(6){
+            transform: rotateX(270deg) translateZ(200px);
+        }
+        .box:hover{
+            transition: all 100s;
+            transform:rotateY(4500deg);
+            transform-origin: 200% 200%;
+        }
+    </style>
+</head>
+<body>
+<div class="stage">
+    <div class="box">
+        <div><img src="44 (2).jpg" alt=""/></div>
+        <div><img src="22 (1).jpg" alt=""/></div>
+        <div><img src="22 (2).jpg" alt=""/></div>
+        <div><img src="44 (1).jpg" alt=""/></div>
+        <div><img src="66 (1).jpg" alt=""/></div>
+        <div><img src="66 (2).jpg" alt=""/></div>
+    </div>
+</div>
+</body>
+</html>

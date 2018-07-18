@@ -1,0 +1,94 @@
+/*---container  begin---*/
+.border{              /* 外层大边框*/
+    width: 1000px;
+    height: 600px;     /*高度根据页面设置*/
+    /*border: solid 2px  #558925;*/
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background: url("../images/bg.jpg");
+}
+/*welcome  begin*/
+.welcome{
+    font-size: 18px;
+    margin-top: 34px;
+    text-align: center;
+    color: #00B262;
+}
+.click-link{
+    color: #009551;
+}
+/*welcome  end*/
+hr{
+    height:1px;
+    border:none;
+    border-top:2px solid  #AFD400;;
+    width: 900px;
+    margin: 33px auto;
+}
+/*reads  bdgin*/
+#reads{
+    width: 900px;
+    height: 428px;
+    border: 1px solid #dddddd;
+    margin: 0 auto;
+}
+.reads-title{
+    float: left;
+    font-size: 18px;
+    margin: 34px 0 0 28px;
+}
+.reads-detail{
+    float: left;
+    margin-top: 34px;
+}
+.reads-top>div,.reads-bottom>div{
+    float: left;
+    height: 48px;
+    margin-left: 20px;
+}
+.reads-top input,.reads-bottom input{
+    background: none;
+    height: 48px;
+    border: none;
+}
+.reads-bottom input{
+    border-radius: 10px;
+    border: 1px solid  #dddddd;;
+}
+.reads-seledcted{
+    height: 40px;
+    border: 2px solid #AFD400;
+    background: white;
+}
+.reads-bottom{
+    clear: both;
+    height: 48px;
+}
+.reads-top{
+    font-size: 30px;
+    height: 48px;
+}
+.reads-bottom{
+    font-size: 24px;
+    margin-top: 32px;
+}
+.reads-bottom input{
+    background: #00B262;
+    color: white;
+    font-weight: bold;
+    border-radius: 20%;
+    border: #aad7ba 4px solid;
+    height: 40px;
+    width: 70px;
+}
+.file{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #6D84B4;
+}
+/*reads  end*/
+
+/*---container  end---*/
+

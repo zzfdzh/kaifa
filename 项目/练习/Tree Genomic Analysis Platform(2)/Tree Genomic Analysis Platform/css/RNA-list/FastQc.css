@@ -1,0 +1,82 @@
+.border{              /* 外层大边框*/
+    background: #eeeeee;
+    border: 1px solid #fbcb09;
+}
+#border1{               /*里层边框*/
+    width: 900px;
+    height:400px;      /*高度根据页面设置*/
+
+    margin: 34px auto 0 auto;
+}
+hr{                    /*有的页面有分界线*/
+    height:1px;
+    border:none;
+    border-top:1px solid  #AFD400;;
+    width: 900px;
+    margin: 33px auto;
+}
+/*welcome  begin*/
+.welcome{
+    font-size: 18px;
+    margin-top: 34px;
+    text-align: center;
+}
+.click-link{
+    color: #009551;
+}
+/*welcome  end*/
+.content1 {
+    margin: 20px 200px;
+    width: 500px;
+}
+.content1 span{
+    float: left;
+    line-height: 50px;
+    margin: 0 auto;
+    color: #6D84B4;
+    font-size: 26px;
+}
+.content2{
+    clear: both;
+}
+.run{
+    width:65px;
+    height:30px;
+    font-size:14px
+}
+.reset{
+    width:75px;
+    height:30px;
+    font-size:14px;
+}
+.file{
+    position: relative;
+    left: 80px;
+    padding: 0;
+    line-height: 50px;
+    height: 40px;
+    border-radius: 10%;
+    top: 5px;
+}
+
+.content1 input{
+    position: absolute;
+    left: 20px;
+    top: 4px;
+    height: 40px;
+    font-size:20px;
+}
+.content2{
+    margin-left: 160px;
+    width: 300px;
+}
+.content2 input{
+    width: 80px;
+    height: 40px;
+    margin: 50px 0 0 70px;
+    background: #BABEBF;
+    border: none;
+    border-radius: 5px;
+    color: #00B262;
+    float: left;
+}

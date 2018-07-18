@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>别踩白块</title>
+
+    <style type="text/css">
+
+        h1,h2 {
+
+            text-align: center;
+
+        }
+
+        #cont{
+
+            margin: 0 auto;
+
+            margin-top: 20px;
+
+            width: 400px;
+
+            height: 400px;
+
+            border:1px solid blue;
+
+            position: relative;
+
+            border-radius: 10px;
+
+            overflow: hidden;
+
+        }
+
+        #main{
+
+            width: 400px;
+
+            height: 400px;
+
+            /*border:1px solid red;*/
+
+            position: relative;
+
+            top:-100px;
+
+        }
+
+        .row{
+
+            height: 100px;
+
+        }
+
+        .row div{
+
+            width: 98px;
+
+            height: 98px;
+
+            border:1px solid gray;
+
+            float: left;
+
+        }
+
+        .black{
+
+            background: black;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>别踩白块  速度×<span id="speed" style="color: red;">1</span></h1>
+
+<h2 >得分：<span id="score" style="color: red;">0</span></h2>
+
+<div id="cont">
+
+    <div id="main"></div>
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+    var main=document.getElementById('main');
+
+    var oSpeed=document.getElementById('speed');
+
+    var clock = null;
+
+    var state = true;
+
+    var speed = 2;
+
+    function getStyle(el, attr){
+
+        return el.currentStyle?el.currentStyle[attr]:getComputedStyle(el,null)[attr];
+
+    }
+
+    //造div
+
+    function cDiv(className) {
+
+        var div = document.createElement('div');
+
+        if(className){
+
+            div.className= className;
+
+        }
+
+        return div;
+
+    }
+
+    //造一行，即连造4个小div
+
+    function cRow() {
+
+//造一个0-3之间的随机数
+
+        var ind = Math.floor(Math.random()*4);
+
+//造一个行div
+
+        var row=cDiv('row');
+
+        for(var i=0;i<4;i++){
+
+            if(i==ind){
+
+                row.appendChild(cDiv('black'));
+
+            }else{
+
+                row.appendChild(cDiv());
+
+            }
+
+        }
+
+//把行row塞到main里
+
+        if(main.firstChild){
+
+            main.insertBefore(row,main.firstChild);
+
+        }else{
+
+            main.appendChild(row);
+
+        }
+
+    }
+
+    function move(){
+
+        var top = parseInt(getStyle(main,'top'));
+
+        top += speed;
+
+        main.style.top = top + 'px';
+
+        if(top >= 0){
+
+            cRow();
+
+            main.style.top='-100px';
+
+//判断最后一行是否含有黑块
+
+            if(main.lastChild.pass != true && main.children.length<=5 || main.childNodes[main.children.length-2].pass != true && main.children.length==6){
+
+// console.log(main.childNodes[main.children.length-2].pass);
+
+                fail();
+
+            }
+
+        }
+
+        if(main.children.length>=6) {
+
+            main.removeChild(main.lastChild);
+
+        }
+
+    }
+
+    function init() {
+
+        for(var i=0; i<4; i++){
+
+            cRow();
+
+        }
+
+        main.onclick = function(ev){
+
+            ev.target = ev.target || ev.srcElement;
+
+            if(state == false){
+
+                alert('再来一局吧');
+
+            }else if(ev.target.className == ''){
+
+                fail();
+
+            } else {
+
+                ev.target.className = '';
+
+                ev.target.parentNode.pass = true;
+
+                var score = document.getElementById('score');
+
+                var score2 = parseInt(score.innerHTML)+1;
+
+                score.innerHTML = score2;
+
+                if (score2 % 10 == 0){
+
+                    speed += 2;
+
+                    oSpeed.innerHTML = speed/2;
+
+                }
+
+            }
+
+        }
+
+        clock = window.setInterval('move();',40);
+
+    }
+
+    function fail(){
+
+        clearInterval(clock);
+
+        state = false;
+
+        speed = 0;
+
+        alert('输了');
+
+    }
+
+    init();
+
+</script>
+
+</html>

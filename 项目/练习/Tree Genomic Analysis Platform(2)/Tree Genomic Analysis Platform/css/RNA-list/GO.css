@@ -1,0 +1,60 @@
+.border{              /* 外层大边框*/
+    width: 1000px;
+    background: #eeeeee;
+    border-left: solid 1px  #dddddd;
+    border-right: solid 1px  #dddddd;
+    border-bottom: solid 1px  #dddddd;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+}
+#border1{               /*里层边框*/
+    width: 900px;
+    height:820px;      /*高度根据页面设置*/
+    border: 1px solid #dddddd;
+    margin: 34px auto 0 auto;
+}
+hr{                    /*有的页面有分界线*/
+    height:1px;
+    border:none;
+    border-top:1px solid  #dddddd;;
+    width: 900px;
+    margin: 33px auto;
+}
+.content div{
+    margin: 20px 20px;
+}
+.sel{
+    margin: 20px 0 0 18px;
+    size: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #6E6E6E;
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(211,211,211);
+}
+.submit{
+    margin-left: 19px!important;
+}
+.submit input{
+    width: 80px;
+    height: 40px;
+    margin: 50px 0 0 70px;
+    background: #BABEBF;
+    border: none;
+    border-radius: 5px;
+    color: #00B262;
+}
+.input{
+    color: #fbcb09;
+    font-size: 26px;
+}
+label{
+    color: #6D84B4;
+    font-size: 26px;
+}
+form{
+    margin: 40px 0 0 20px;
+}
